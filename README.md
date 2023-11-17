@@ -22,9 +22,9 @@ As a web developer, I was tasked with creating a landing page consisting of a ba
 
 ### Submission Details
 
-- Created a new GitHub repository to host the project: [GitHub Repository](#your-github-repository-link-here)
+- Created a new GitHub repository to host the project: [GitHub Repository](https://github.com/calvintuantran/ZymoResearchProject)
 - Committed code regularly with clear and meaningful commit messages.
-- Deployed the landing page to GitHub Pages. The live URL can be accessed here: [Live Demo](#your-live-demo-link-here)
+- Deployed the landing page to GitHub Pages. The live URL can be accessed here: [Live Demo](https://calvintuantran.github.io/ZymoResearchProject/)
 
 ### Evaluation Criteria
 
