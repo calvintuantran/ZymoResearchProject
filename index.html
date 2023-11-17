@@ -12,26 +12,17 @@
   </head>
   <body>
     <section class="banner">
-      <!-- Default desktop image -->
-      <img
-        class="desktop-banner"
-        src="./static/images/banner-desktop.jpg"
-        alt="Banner Image"
-      />
-
-      <!-- Tablet image -->
-      <img
-        class="tablet-banner"
-        src="./static/images/banner-tablet.jpg"
-        alt="Tablet Banner Image"
-      />
-
-      <!-- Phone image -->
-      <img
-        class="phone-banner"
-        src="./static/images/banner-mobile.jpg"
-        alt="Phone Banner Image"
-      />
+      <picture class="image-banner">
+        <source
+          media="(max-width: 767px)"
+          srcset="./static/images/banner-mobile.jpg"
+        />
+        <source
+          media="(min-width: 768px) and (max-width: 1023px)"
+          srcset="./static/images/banner-tablet.jpg"
+        />
+        <img src="./static/images/banner-desktop.jpg" alt="Flowers" />
+      </picture>
     </section>
     <section class="hero-section">
       <div>
