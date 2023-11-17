@@ -10,107 +10,110 @@
       rel="stylesheet"
     />
   </head>
-  <section class="banner">
-    <img src="../static/images/banner-desktop.jpg" alt="Banner Image" />
-  </section>
-  <section class="hero-section">
-    <div>
-      <h1 class="header">Header Text</h1>
-      <h3 class="subheader">Lorem Ipsum</h3>
-    </div>
-
-    <div class="icon-banner">
-      <div class="icon-container">
-        <div class="image-box">
-          <img src="../static/images/checkmark_icon.jpg" alt="Image 1" />
-        </div>
+  <body>
+    <section class="banner">
+      <img src="../static/images/banner-desktop.jpg" alt="Banner Image" />
+    </section>
+    <section class="hero-section">
+      <div>
+        <h1 class="header">Header Text</h1>
         <h3 class="subheader">Lorem Ipsum</h3>
       </div>
-      <div class="icon-container">
-        <div class="image-box">
-          <img src="../static/images/graphs_icon.jpg" alt="Image 1" />
-        </div>
-        <h3 class="subheader">Lorem Ipsum</h3>
-      </div>
-      <div class="icon-container">
-        <div class="image-box">
-          <img src="../static/images/bullseye_icon.jpg" alt="Image 1" />
-        </div>
-        <h3 class="subheader">Lorem Ipsum</h3>
-      </div>
-    </div>
-    <div class="btn-container">
-      <button class="button">Inquire Now</button>
-    </div>
-  </section>
 
-  <section class="info-section">
-    <div>
-      <h1 class="section-header">Header Text</h1>
-      <h3 class="subheader">Lorem Ipsum</h3>
-    </div>
-    <div class="info-paragraph">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
-        semper tortor. Sed vitae diam in purus varius eleifend. Vestibulum ac
-        commodo nunc. In hac habitasse platea dictumst. Curabitur non risus eu
-        massa posuere rhoncus vel a metus. Pellentesque habitant morbi tristique
-        senectus et netus et malesuada fames ac turpis egestas. Integer ut
-        congue dui. Duis auctor, arcu vitae gravida lacinia, justo elit
-        consectetur sapien, vel interdum lectus justo vel diam. Aliquam ut
-        ligula a sem cursus fermentum et vel odio. Vestibulum non libero in nisl
-        cursus ullamcorper vitae nec urna. Etiam at libero justo. Sed eu lacinia
-        neque. Quisque quis nisi vel justo condimentum sollicitudin. Maecenas ut
-        augue et risus ullamcorper dictum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
-        semper tortor. Sed vitae diam in purus varius eleifend. Vestibulum ac
-        commodo nunc. In hac habitasse platea dictumst. Curabitur non risus eu
-        massa posuere rhoncus vel a metus. Pellentesque habitant morbi tristique
-        senectus et netus et malesuada fames ac turpis egestas. Integer ut
-        congue dui. Duis auctor, arcu vitae gravida lacinia, justo elit
-        consectetur sapien, vel interdum lectus justo vel diam. Aliquam ut
-        ligula a sem cursus fermentum et vel odio. Vestibulum non libero in nisl
-        cursus ullamcorper vitae nec urna. Etiam at libero justo. Sed eu lacinia
-        neque. Quisque quis nisi vel justo condimentum sollicitudin. Maecenas ut
-        augue et risus ullamcorper dictum.
-      </p>
-    </div>
-  </section>
-
-  <section class="form-section">
-    <div>
-      <h1 class="section-header">Form</h1>
-    </div>
-    <form>
-      <div class="row">
-        <div class="input-group">
-          <input type="text" id="name" required />
-          <label class="placeholder" for="firstName"> First Name</label>
+      <div class="icon-banner">
+        <div class="icon-container">
+          <div class="image-box">
+            <img src="../static/images/checkmark_icon.jpg" alt="Image 1" />
+          </div>
+          <h3 class="subheader">Lorem Ipsum</h3>
         </div>
-        <div class="input-group">
-          <input type="text" id="name" required />
-          <label class="placeholder" for="lastName"> Last Name</label>
+        <div class="icon-container">
+          <div class="image-box">
+            <img src="../static/images/graphs_icon.jpg" alt="Image 1" />
+          </div>
+          <h3 class="subheader">Lorem Ipsum</h3>
         </div>
-      </div>
-      <div class="row">
-        <div class="input-group">
-          <input type="text" id="name" required />
-          <label class="placeholder" for="company"> Company</label>
+        <div class="icon-container">
+          <div class="image-box">
+            <img src="../static/images/bullseye_icon.jpg" alt="Image 1" />
+          </div>
+          <h3 class="subheader">Lorem Ipsum</h3>
         </div>
-        <div class="input-group">
-          <input type="text" id="name" required />
-          <label class="placeholder" for="role">Role</label>
-        </div>
-      </div>
-      <div class="input-group">
-        <label for="role">Additional Comments</label>
-        <textarea id="message" rows="8"></textarea>
       </div>
       <div class="btn-container">
-        <button class="button" type="submit">Submit</button>
+        <button class="button" onclick="scrollToForm()">Inquire Now</button>
       </div>
-    </form>
-  </section>
+    </section>
+
+    <section class="info-section">
+      <div>
+        <h1 class="section-header">Header Text</h1>
+        <h3 class="subheader">Lorem Ipsum</h3>
+      </div>
+      <div class="info-paragraph">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
+          semper tortor. Sed vitae diam in purus varius eleifend. Vestibulum ac
+          commodo nunc. In hac habitasse platea dictumst. Curabitur non risus eu
+          massa posuere rhoncus vel a metus. Pellentesque habitant morbi
+          tristique senectus et netus et malesuada fames ac turpis egestas.
+          Integer ut congue dui. Duis auctor, arcu vitae gravida lacinia, justo
+          elit consectetur sapien, vel interdum lectus justo vel diam. Aliquam
+          ut ligula a sem cursus fermentum et vel odio. Vestibulum non libero in
+          nisl cursus ullamcorper vitae nec urna. Etiam at libero justo. Sed eu
+          lacinia neque. Quisque quis nisi vel justo condimentum sollicitudin.
+          Maecenas ut augue et risus ullamcorper dictum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
+          semper tortor. Sed vitae diam in purus varius eleifend. Vestibulum ac
+          commodo nunc. In hac habitasse platea dictumst. Curabitur non risus eu
+          massa posuere rhoncus vel a metus. Pellentesque habitant morbi
+          tristique senectus et netus et malesuada fames ac turpis egestas.
+          Integer ut congue dui. Duis auctor, arcu vitae gravida lacinia, justo
+          elit consectetur sapien, vel interdum lectus justo vel diam. Aliquam
+          ut ligula a sem cursus fermentum et vel odio. Vestibulum non libero in
+          nisl cursus ullamcorper vitae nec urna. Etiam at libero justo. Sed eu
+          lacinia neque. Quisque quis nisi vel justo condimentum sollicitudin.
+          Maecenas ut augue et risus ullamcorper dictum.
+        </p>
+      </div>
+    </section>
+
+    <section id="form-section">
+      <div>
+        <h1 class="section-header">Form</h1>
+      </div>
+      <form>
+        <div class="row">
+          <div class="input-group">
+            <input type="text" id="name" required />
+            <label class="placeholder" for="firstName"> First Name</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="name" required />
+            <label class="placeholder" for="lastName"> Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-group">
+            <input type="text" id="name" required />
+            <label class="placeholder" for="company"> Company</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="name" required />
+            <label class="placeholder" for="role">Role</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="role">Additional Comments</label>
+          <textarea id="message" rows="8"></textarea>
+        </div>
+        <div class="btn-container">
+          <button class="button" type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+    <script src="../controllers/app.js"></script>
+  </body>
 </html>

@@ -95,7 +95,7 @@ body {
 }
 
 form {
-  width: 40%;
+  width: 30%;
 }
 
 .info-section {
@@ -122,7 +122,7 @@ form {
   pointer-events: none;
 }
 
-.form-section {
+#form-section {
   display: flex;
   align-items: center;
   justify-content: center;
