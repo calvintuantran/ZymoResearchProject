@@ -13,7 +13,7 @@ function scrollToForm() {
 function formSubmit(event) {
   // Prevents Page refresh
   event.preventDefault();
-  var name = document.getElementById("firstName").value;
+  const name = document.getElementById("firstName").value;
 
   alert(`Thanks for submitting ${name}!`);
 
