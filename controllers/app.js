@@ -9,3 +9,14 @@ function scrollToForm() {
     behavior: "smooth",
   });
 }
+
+function formSubmit(event) {
+  // Prevents Page refresh
+  event.preventDefault();
+  var name = document.getElementById("firstName").value;
+
+  alert(`Thanks for submitting ${name}!`);
+
+  // Clear the form
+  document.getElementById("form").reset();
+}
